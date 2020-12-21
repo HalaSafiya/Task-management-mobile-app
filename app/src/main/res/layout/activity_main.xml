@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textColor="#0D2B5C"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/editdesign"
+        android:padding="8dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/email_login"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:background="@drawable/editdesign"
+        android:padding="8dp"
+        android:textColorHint="@android:color/white"
+        android:inputType="textPassword"
+        android:id="@+id/password_login"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        android:background="@drawable/editdesign"
+        android:id="@+id/login_btn"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have account yet? Sign up here"
+        android:gravity="center"
+        android:padding="7dp"
+        android:textColor="#0D2B5C"
+        android:id="@+id/signup_txt"
+        android:textAppearance="?android:textAppearanceSmall"
+    />
+
+</LinearLayout>
